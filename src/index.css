@@ -1,3 +1,16 @@
 form {
   width: 100%;
 }
+
+.watermark {
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  background-color: #14b8a6;
+  border-radius: 50px;
+  padding: 16px;
+}
+
+.watermark p {
+  font-weight: 600;
+}

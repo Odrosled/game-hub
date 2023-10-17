@@ -4,7 +4,7 @@ import GameCard from "./GameCard";
 import GameCardSkeleton from "./GameCardSkeleton";
 import GameCardContainer from "./GameCardContainer";
 import { Genre } from "../hooks/useGenres";
-import { GameQuery } from "../App";
+import { GameQuery } from "../Home";
 
 interface GameGridProps {
   gameQuery: GameQuery;

@@ -1,4 +1,5 @@
-import { GameQuery } from "../App";
+import { GameQuery } from "../Home";
+import { ITag } from "../components/Tag";
 import useData from "./useData";
 import { Genre } from "./useGenres";
 
@@ -15,6 +16,12 @@ export interface Game {
   parent_platforms: { platform: Platform }[] //causa design api non ottimale
   metacritic: number;
   rating_top: number;
+  description: string;
+  description_raw: string;
+  platforms: { platform: Platform }[]
+  rating: number;
+  released: string;
+  tags: ITag[];
 }
 
 const useGames = (gameQuery: GameQuery) => 
